@@ -1,0 +1,16 @@
+OASISFormat: 0.4
+Name:        xml-access
+Version:     0.1
+Synopsis:    Easy access XML data
+Description: Easy access XML data
+Authors:     Evgenii Lepikhin <johnlepikhin@gmail.com>
+Maintainers:     Evgenii Lepikhin <johnlepikhin@gmail.com>
+License:     LGPL-3.0
+Plugins:     META (0.4)
+BuildTools: ocamlbuild
+OCamlVersion: >= 4.01
+
+Library xmlaccess
+  Path:        src
+  Modules:     XMLAccess
+

@@ -1,0 +1,5 @@
+normal
+with=0
+load=eliom_ocp-indent
+syntax=lwt
+max_indent=2
